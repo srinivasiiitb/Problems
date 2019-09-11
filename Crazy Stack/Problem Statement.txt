@@ -1,0 +1,36 @@
+Given an empty crazy stack, the task is to perform the following 3 operations: 
+• push a : Push an integer to the top of the stack. O 
+• pop : Pop the top element from the stack. It is guaranteed that the stack is not empty while performing this operatiotm 
+• inc x d : Add d to the bottom x elements of the stack. 
+After each operation, print the top element of the stack. All test cases will only be passed if its solved optimally. 
+
+Input format: 
+First line contains n, the number of operations. Each of the next n lines is one of the above operations listed above. 
+
+Output Format:
+After each operation, print the top element of the stack. If, after an operation, the stack is empty print "EMPTY". 
+
+Sample input: 
+12
+push 4
+pop 
+push 3
+push 5
+push 2
+inc 3 1 
+pop
+push 1
+inc 2 2 
+push 4
+pop
+pop
+
+Sample output:
+4 
+EMPTY
+3 
+5 
+2 
+3
+6
+1
